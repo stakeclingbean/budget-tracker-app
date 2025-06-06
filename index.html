@@ -1,1 +1,53 @@
-<!DOCTYPE html><html><head><title>Budget Tracker</title></head><body><div id="root"></div><script src="main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercer's Budget Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+  <div class="max-w-3xl mx-auto p-6 space-y-6">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold">Mercer’s Budget Panel</h1>
+      <p class="text-sm text-gray-500">Clean, focused financial snapshot</p>
+    </div>
+
+    <div class="bg-white shadow rounded-xl p-4">
+      <h2 class="text-xl font-semibold mb-2">📊 Monthly Budget Summary</h2>
+      <ul class="space-y-1 text-sm">
+        <li>💵 Income: <strong>$4,450</strong></li>
+        <li>🍎 Groceries & Food: $350</li>
+        <li>⛽ Gas / Transportation: $325</li>
+        <li>🔌 Utilities: $100</li>
+        <li>📱 Subscriptions: $120</li>
+        <li>💊 Personal / Health: $150</li>
+        <li>💳 Credit Card Payments: $1,050</li>
+        <li>🎮 Entertainment: $250</li>
+        <li>🏦 Savings: $0</li>
+        <li class="mt-2 font-bold">Total Monthly Spend: $2,345</li>
+        <li class="font-bold text-green-600">Leftover: $2,105</li>
+      </ul>
+    </div>
+
+    <div class="bg-white shadow rounded-xl p-4">
+      <h2 class="text-xl font-semibold mb-2">💳 Credit Card Breakdown</h2>
+      <ul class="space-y-1 text-sm">
+        <li>Citi Credit Card: $8,400 (Min: $350)</li>
+        <li>Apple Card: $8,000 (Min: $290)</li>
+        <li>Capital One: $10,700 (Min: $395)</li>
+        <li class="mt-2 font-bold">Total Debt: $27,100</li>
+      </ul>
+    </div>
+
+    <div class="bg-white shadow rounded-xl p-4">
+      <h2 class="text-xl font-semibold mb-2">🚀 Progress & Goals</h2>
+      <p class="text-sm mb-2">Pay off $27,100 in debt — goal: <strong>March 2026</strong></p>
+      <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-500 h-4 rounded-full" style="width: 12%;"></div>
+      </div>
+      <p class="text-xs mt-1 text-right">~$3,200 paid so far</p>
+    </div>
+  </div>
+</body>
+</html>
